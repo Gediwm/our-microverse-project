@@ -1,0 +1,37 @@
+/* set background color for the body */
+body {
+    background-color: #f1f1f1;
+  }
+  
+  /* center the title */
+  #title {
+    text-align: center;
+  }
+  
+  /* style the image and its caption */
+  #image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* style the timeline list */
+  #tribute-info {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* style the timeline list items */
+  #tribute-info li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
