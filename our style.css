@@ -1,37 +1,77 @@
-/* set background color for the body */
+/* Style the body element */
 body {
-    background-color: #f1f1f1;
-  }
-  
-  /* center the title */
-  #title {
-    text-align: center;
-  }
-  
-  /* style the image and its caption */
-  #image {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    height: auto;
-  }
-  
-  #img-caption {
-    text-align: center;
-    font-style: italic;
-  }
-  
-  /* style the timeline list */
-  #tribute-info {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  /* style the timeline list items */
-  #tribute-info li {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+/* Style the h1 element */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Style the p element */
+p {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Style the img element */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the img-caption paragraph */
+#img-caption {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Style the h3 elements */
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Style the unordered list */
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Style the list items */
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Style the tribute-info div */
+#tribute-info {
+  margin-top: 20px;
+}
+
+/* Style the anchor tags */
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/* Style the anchor tags on hover */
+a:hover {
+  text-decoration: underline;
+}
